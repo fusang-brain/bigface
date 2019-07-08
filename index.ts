@@ -1,5 +1,2 @@
-import * as _fs from 'fs';
-
+export { fs }  from 'mz';
 export { default as pump } from './pump';
-
-export const fs = _fs.promises;

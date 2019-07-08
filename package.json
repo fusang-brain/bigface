@@ -1,6 +1,6 @@
 {
   "name": "@fsba/bigface",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "tools for fsba",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -31,6 +31,8 @@
     "typescript": "^3.5.2"
   },
   "dependencies": {
+    "@types/mz": "^0.0.32",
+    "mz": "^2.7.0",
     "pump": "^3.0.0"
   }
 }
