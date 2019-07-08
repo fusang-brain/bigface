@@ -6,7 +6,6 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
-    "prepublish": "npm run build",
     "test": "npm run build && mocha dist/test --reporter spec"
   },
   "repository": {
