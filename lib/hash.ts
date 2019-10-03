@@ -21,7 +21,7 @@ export function md5(data: BinaryLike, digest: HexBase64Latin1Encoding) {
   return hash.digest(digest);
 }
 
-export function md5File(path: string) {
+export async function md5File(path: string) {
   const getMd5 = (path: string): Promise<string> => {
     return new Promise((resolve, reject) => {
       try {

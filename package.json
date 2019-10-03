@@ -1,11 +1,12 @@
 {
   "name": "@fsba/bigface",
-  "version": "0.1.2",
+  "version": "0.1.11",
   "description": "tools for fsba",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
+    "prepublish": "npm run build",
     "test": "npm run build && mocha dist/test --reporter spec"
   },
   "repository": {
