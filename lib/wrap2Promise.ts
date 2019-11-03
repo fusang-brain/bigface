@@ -1,5 +1,6 @@
 
 export default mod => {
+  console.log(mod, ' :mod');
   const wrapped = (...args) => {
     // arrow function can't bind arguments, and can't use rest in node@4, sign
     // const args = [ args1, args2, args3, args4 ];
